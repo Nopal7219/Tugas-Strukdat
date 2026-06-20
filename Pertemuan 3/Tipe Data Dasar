@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int umur = 21;
+
+    float ipk = 3.85;
+
+    char grade = 'B';
+
+    string nama = "Naufal";
+
+
+    cout << "Nama: " << nama << endl;
+
+    cout << "Umur: " << umur << endl;
+
+    cout << "IPK: " << ipk << endl;
+
+    cout << "Grade: " << grade << endl;
+
+
+    return 0;
+
+}
