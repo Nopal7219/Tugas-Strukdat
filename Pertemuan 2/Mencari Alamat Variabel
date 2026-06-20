@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int angka = 10;
+
+    int *ptr;
+
+    ptr = &angka;
+
+
+    cout << "Nilai variabel: " << angka << endl;
+
+    cout << "Alamat variabel: " << ptr << endl;
+
+
+    return 0;
+}
