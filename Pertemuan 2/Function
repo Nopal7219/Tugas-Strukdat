@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+void cekHuruf(char huruf) {
+
+    if (huruf == 'a' || huruf == 'i' || huruf == 'u' ||
+        huruf == 'e' || huruf == 'o') {
+
+        cout << "Huruf Vokal";
+
+    } else {
+        cout << "Huruf Konsonan";
+    }
+}
+
+int main() {
+
+    char huruf;
+
+    cout << "Masukkan huruf: ";
+    cin >> huruf;
+
+    cekHuruf(huruf);
+
+    return 0;
+}
