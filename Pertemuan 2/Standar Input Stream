@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+
+    cout << "Masukkan angka: ";
+    cin >> a;
+
+    cout << "Angka yang dimasukkan adalah " << a;
+
+    return 0;
+}
